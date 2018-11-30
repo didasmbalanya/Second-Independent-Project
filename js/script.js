@@ -24,4 +24,4 @@ var triangleCalculator(function(side1,side2,side3){
 		});
 
 function triangleCalculator() {
-    document.getElementById("frm1").submit();
+    document.getElementById("calc").submit();
