@@ -1,5 +1,5 @@
 
-var triangleCalculator = function(){ 
+var triangleCalculator = function(){
 
 	var sideA = document.getElementById("sideA").value;
 	var sideB = document.getElementById("sideB").value;
@@ -14,14 +14,14 @@ var triangleCalculator = function(){
 	else if (sideA === sideB && sideB !== sideC){
 		alert("Isoceles")
 	}
-	else if(sideA !=== sideB && sideB === sideC){
+	else if(sideA !== sideB && sideB === sideC){
 		alert("Isoceles")
 	}
 	else if(sideA === sideC && sideC !== sideB){
 		alert("Isoceles")
 	}
 	else{
-		alert("Not a trianle")
+		alert("Not a triangle")
 	}
 
 		};
