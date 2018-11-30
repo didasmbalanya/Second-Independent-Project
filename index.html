@@ -3,6 +3,7 @@
 <head>
 	<title>Triangle Type</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/script.js"></script>
 
 </head>
 <body>
@@ -10,7 +11,7 @@
 	<div id = "calculator">
 		<h2> Type Calculator</h2>
 		<br>
-		<form>
+		<form id = "calc">
 			Side A:
 			<input type="number" name="sideA" min="1">
 			<br><br>
@@ -20,8 +21,9 @@
 			Side C:
 			<input type="number" name="sideC" min="1">
 			<br><br>
-			<input type="submit" value="Submit">
+			<input type="submit" onclick="triangleCalculator()" value="Submit">
 	</form>
+
 	</div>
 	<div id = "info">
 		<h2 >Triangle Types</h2>
