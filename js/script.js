@@ -16,3 +16,6 @@ else if (triangleSides[1] !== triangleSides[2] && triangleSides[2] === triangleS
 else if (triangleSides[1] === triangleSides[3] && triangleSides[2] !== triangleSides[3]){
 	console.log("Triangle is Isoceles")
 }
+else{
+	console.log("Triangle is Scalene")
+}
