@@ -3,6 +3,7 @@
 #### By **Didas**
 ## Description
 This website is takes is user input which is sides of a triangle to determine which type of triangle it is.
+A second version is in plan to be able to identify a shape depending on the number of sides and lengths provided.
 
 ## Setup/Installation Requirements
 Click on the the link bellow and enter the values for any triange in the prompt
