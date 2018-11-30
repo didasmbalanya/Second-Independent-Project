@@ -1,5 +1,5 @@
 
-var function triangleCalculator(side1,side2,side3){ 
+var function triangleCalculator(){ 
 
 	var sideA = document.getElementById("sideA").value();
 	var sideB = document.getElementById("sideB").value();
