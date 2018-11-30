@@ -11,15 +11,15 @@
 	<div id = "calculator">
 		<h2> Type Calculator</h2>
 		<br>
-		<form id = "calc">
+		<form name = "calc">
 			Side A:
-			<input type="number" name="sideA" min="1">
+			<input type="number" name="sideA" id = "sideA"min="1">
 			<br><br>
 			Side B:
-			<input type="number" name="sideB" min="1">
+			<input type="number" name="sideB" id = "sideB"min="1">
 			<br><br>
 			Side C:
-			<input type="number" name="sideC" min="1">
+			<input type="number" name="sideC" id ="sideC" min="1">
 			<br><br>
 			<input type="submit" onclick="triangleCalculator()" value="Submit">
 	</form>
@@ -29,7 +29,7 @@
 		<h2 >Triangle Types</h2>
 		<ul>
 			<li >Scalene</li>
-			<p>This is a triangle with no equal sides</p>
+			<p id = "demo">This is a triangle with no equal sides</p>
 			<li>Isoceles</li>
 			<p>This is a triangle with only two equal sides</p>
 			<li>Equilateral</li>
