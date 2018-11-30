@@ -14,9 +14,14 @@ var triangleCalculator(function(side1,side2,side3){
 	else if (triangleSides[1] === triangleSides[3] && triangleSides[2] !== triangleSides[3]){
 		console.log("Triangle is Isoceles")
 	}
+	else if(triangleSides[1] !== triangleSides[3] && triangleSides[2] !== triangleSides[3] && triangleSides[1] !== triangleSides[2]){
+		console.log("Triangle is Isoceles")
+	}
 	else{
-		console.log("Triangle is Scalene")
-	}});
+		console.log("Cannot form a triangle")
+	}
+
+		});
 
 function triangleCalculator() {
     document.getElementById("frm1").submit();
