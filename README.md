@@ -8,7 +8,7 @@ A second version is in plan to be able to identify a shape depending on the numb
 ## Setup/Installation Requirements
 Click on the the link bellow and enter the values for any triange in the prompt
 ## Site on git pages
-
+https://didasmbalanya.github.io/Second-Independent-Project/
 ## Known Bugs
 none on the current version
 ## Technologies Used
