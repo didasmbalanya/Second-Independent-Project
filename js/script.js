@@ -1,9 +1,9 @@
 
 var triangleCalculator = function(){ 
 
-	var sideA = document.getElementById("sideA").value();
-	var sideB = document.getElementById("sideB").value();
-	var sideC = document.getElementById("sideC").value();
+	var sideA = document.getElementById("sideA").value;
+	var sideB = document.getElementById("sideB").value;
+	var sideC = document.getElementById("sideC").value;
 
 	var triangleSides = [sideA,sideB,sideC]
 	if (triangleSides[1] === triangleSides[2] && triangleSides[2] === triangleSides[3]){
