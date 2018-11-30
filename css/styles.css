@@ -14,7 +14,7 @@ body{
 	width: 500px;
 	float: left;
 	background-color: lightblue;
-	align: center;
+	text-align: center;
 }
 #info{
 	height: 500px;
