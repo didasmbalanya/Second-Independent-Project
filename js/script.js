@@ -1,5 +1,9 @@
 
-/*var triangleCalculator(function(side1,side2,side3){
+var function triangleCalculator(side1,side2,side3){ 
+
+	var sideA = document.getElementById("sideA").value();
+	var sideB = document.getElementById("sideB").value();
+	var sideC = document.getElementById("sideC").value();
 
 	var triangleSides = [sideA,sideB,sideC]
 	if (triangleSides[1] === triangleSides[2] && triangleSides[2] === triangleSides[3]){
@@ -21,6 +25,5 @@
 		window.alert("Cannot form a triangle")
 	}
 
-		});*/
-		document.getElementsById("demo").innerHTML = "hello dolly";
-
+		};
+		
