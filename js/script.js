@@ -5,7 +5,10 @@ var triangleCalculator = function(){
 	var sideB = document.getElementById("sideB").value;
 	var sideC = document.getElementById("sideC").value;
 
-	if (sideA === sideB && sideB === sideC){
+	if(sideA + sideB <= sideC || sideB + sideC <= sideA || sideA + sideC <= sideB){
+		alert("cannot form a triangle")
+	}
+	else if (sideA === sideB && sideB === sideC){
 		alert("Equilateral")
 	}
 	else if(sideA !== sideB && sideB !== sideC && sideA !== sideC){
@@ -20,7 +23,7 @@ var triangleCalculator = function(){
 	else if(sideA === sideC && sideC !== sideB){
 		alert("Isoceles")
 	}
-	else{
+	else {
 		alert("Not a triangle")
 	}
 
